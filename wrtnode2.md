@@ -18,13 +18,15 @@ Initial Connect
 Connect to local WiFi and change broadcast SSID
 -----------------------------------------------
 
-1. 
-```bash
+1. Change SSIDs and passwords in wireless
+
+    ```bash
 vi /etc/config/wireless 
 ```
-Change SSIDs and passwords
+
 2. Reset network
-```bash
+
+    ```bash
 \etc\init.d\network reload
 ```
 
@@ -32,8 +34,9 @@ Install python-light
 --------------------
 
 1. SSH into WRTnode2
-2.
-```bash
+2. Install python-light
+
+    ```bash
 opkg update
 opkg install python-light
 ```
