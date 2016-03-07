@@ -11,9 +11,9 @@ Initial Connect
 4. Log on as root with above password
 5. Go to password configuration and choose root password
 6. ssh into WRTnode2
-    ```bash
-    ssh root@192.168.8.1
-    ````
+    ```
+ssh root@192.168.8.1
+````
 
 Connect to local WiFi and change broadcast SSID
 -----------------------------------------------
